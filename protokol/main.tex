@@ -1,0 +1,52 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{showframe}
+\usepackage[total={18.5cm, 25cm}, top=3cm, left=1.25cm, includefoot]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{ctable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{etoolbox}
+
+\preto\tabular{\shorthandoff{-}}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand\thesection{}
+\renewcommand{\headrulewidth}{0.0pt}
+
+
+\newcommand{\subject}{Měření v elektrotechnice}
+\newcommand{\taskname}{Měření statické hysterezní smyčky}
+\newcommand{\tasknum}{7A}
+
+\newcommand{\class}{BK2EST}
+\newcommand{\group}{01}
+\newcommand{\name}{Ondřej}
+\newcommand{\surname}{Povolný}
+\newcommand{\support}{}
+\newcommand{\datmeas}{21.10.2017}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyfoot[L]{\name~\surname}
+\fancyfoot[C]{\thepage/\pageref{end}}
+\fancyfoot[R]{\class/\group}
+
+
+\begin{document}
+
+\setcounter{page}{1}
+\input{title}
+\input{task}
+\section{Teoreticky úvod}
+Hysterezni charakteristika je grafická závislost mezi magnetickou indukci $B$ feromagnetickeho materialu a intenzitou magnetickeho pole $H$. O stejnosmernem magnetovani mluvime tehdy, pokud 
+\label{end}
+\end{document}
